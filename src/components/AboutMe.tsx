@@ -40,7 +40,7 @@ const AboutMe = () => {
                     }));
                 })
         }
-    }, []);
+    }, [changeHero, hero, heroId]);
 
     return (heroId in characters) ? (
         <>
